@@ -1,4 +1,4 @@
-package by.epam.les08.main;
+package by.epam.les03.main;
 import java.util.Scanner;
 public class formula2 {
 	@SuppressWarnings("resource")
