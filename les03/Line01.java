@@ -7,7 +7,7 @@ public class Line01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int number = 0;
-		System.out.print("Введите число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 		if (sc.hasNextInt())
 			number = sc.nextInt();
 		calcDigit(number);
@@ -25,10 +25,10 @@ public class Line01 {
 	
 	public static void printDigit(int digit) {
 			if (digit % 2 == 0) {
-				System.out.println("В числе есть четная цифра.");
+				System.out.println("Р’ С‡РёСЃР»Рµ РµСЃС‚СЊ С‡РµС‚РЅР°СЏ С†РёС„СЂР°.");
 				return;
 			}
-			System.out.println("В числе нет четных цифр.");
+			System.out.println("Р’ С‡РёСЃР»Рµ РЅРµС‚ С‡РµС‚РЅС‹С… С†РёС„СЂ.");
 		}
 }
 	
